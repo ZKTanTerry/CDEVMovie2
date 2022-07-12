@@ -11,5 +11,5 @@ app.route('/movies').get(movieController.getAllMovies); // activate the getAllMo
 
 
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 console.log("web server running @ http://127.0.0.1:8080"); // output to console 
