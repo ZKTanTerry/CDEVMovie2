@@ -2,7 +2,7 @@ var express = require("express"); //using the express web framework
 
 var movieController = require('./controllers/movieController'); // set movieController to the movieController class
 var app = express(); // set variable app to be an instance of express framework. From now on, app is the express
-const port  = 3000
+const port  = 3000;
 app.use(express.static("./public")); //static files are to be served from the public folder - for eg. html, images, css
 app.use(express.json()); // json() is a method inbuilt in express to recognize the incoming Request Object from the web client as a JSON Object.
 // In time to come we will need to accept new or edited comments from user
